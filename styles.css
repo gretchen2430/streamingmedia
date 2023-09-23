@@ -1,10 +1,164 @@
+
+/*Color palette
+#020659 
+#020873
+#030A8C
+#0D8DFB
+#2104D9
+#2699FB
+#590242
+*/
+
+/* Font Sizes 
+h1 {font-size: 1.25em;} 
+h2, h3 {font-size: 1em;}
+p, dl, dd {font-size: 1em;}
+footer p { font-size: .75em;} 
+
+Typography
+
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+*/
+
+
+
+html { 
+    background-color: #020659;
+}
+body { 
+    margin: 0 auto;  
+} 
+
+nav ul { 
+    list-style-type: none;
+}
+
+p, dl, dd {
+    font-size: 1em;
+}
+
+footer p { 
+    font-size: .75em;
+} 
+.trend { 
+   
+}
+.scroll {
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    overflow-x: auto; 
+    overflow-y: hidden; 
+}
+.scroll section { 
+    margin: 10px; 
+    position: relative; 
+    background:
+}
+.scroll div {
+    position: absolute; 
+    top: 251px; 
+    background-color: rgba(255, 255, 255, .75); 
+    padding: 5px; 
+    height: 50px; 
+    width: 350px; 
+}
+dl { 
+    display: flex; 
+}
+dt { 
+    padding-right: 5px; 
+}
+audio { 
+    position: absolute; 
+    bottom: 150px; 
+    left: 5px; 
+}
+.more { 
+    text-decoration: none;
+    background-color: #590242; 
+    color: #ffffff; 
+    border-radius: 5px; 
+    padding: 10px; 
+    width: 150px; 
+    display: block; 
+    text-align: center; 
+    margin: 10px 0 30px 32px; 
+}
+.more:hover { 
+    background-color: #020659;
+}
+
+/* AUDIO CODE PROVIDED BY INSTRUCTOR */ 
+
+audio::-webkit-media-controls-mute-button {
+    background-color: #ffffff; 
+    border-radius: 50%; 
+}
+audio::-webkit-media-controls-play-button {
+    background-color: #ffffff; 
+    border-radius: 50%; 
+}
+audio::-webkit-media-controls-enclosure {
+    background-color: rgba(255, 255, 255, .5);
+}
+
+/*SCROLL CODE PROVIDED BY INSTRUCTOR*/
+
+#trending ::-webkit-scrollbar {
+    width: 15px;
+}
+#trending ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 15px #590242; 
+}
+
+#trending ::-webkit-scrollbar-thumb {
+   background: #590242; 
+   border-radius: 5px; 
+}
+#trending ::-webkit-scrollbar-thumb:hover {
+   background: #020659; 
+}
+#playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+    width: 15px; 
+}
+#playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track  {
+    box-shadow: inset 0 0 15px #020659; 
+}
+#playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+    background: #020659; 
+    border-radius: 5px; 
+}
+#playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+}
+
+
+/*TEXT  */
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+
+h1 {
+    font-size: 1.25em;
+    line-height: 2em;
+} 
+
+h1, h2, h3 { 
+    font-weight: bold; 
+    text-transform: uppercase; 
+}
+h2, h3 {
+    font-size: 1em;
+    color: #590242; 
+    line-height: 2em;
+}
 /* Menu code provided by instructor 
 JS Fiddle example: 
 https://jsfiddle.net/1fzgah3n/
 
 
 Menu Code for Mobile First Style (minus the bits you know how to do): 
-
 */
 
 ul {
@@ -76,31 +230,21 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 
 
-/* AUDIO CODE PROVIDED BY INSTRUCTOR */ 
-
-audio::-webkit-media-controls-mute-button {
-
-}
-audio::-webkit-media-controls-play-button {
-
-}
-audio::-webkit-media-controls-enclosure {
-
-}
 
 /*SCROLL CODE PROVIDED BY INSTRUCTOR*/
 
 #trending ::-webkit-scrollbar {
-
+    
 }
 #trending ::-webkit-scrollbar-track {
 
 }
 #trending ::-webkit-scrollbar-thumb {
-
+    background: #590242; 
+    border-radius: 5px; 
 }
 #trending ::-webkit-scrollbar-thumb:hover {
-
+    background: 020659
 }
 #playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
 

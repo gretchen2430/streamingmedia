@@ -44,20 +44,31 @@ p, dl, dd {font-size: 1em;
 footer p {font-size: .75em;
 }
 
+.container { display: grid}
 
 /* HEADER STYLES */ 
 .header { 
     background: linear-gradient( to right, #2104D9, #030A8C,#020873, #020659, #000000); 
     color: white; 
     padding: 20px; 
-}
 
+}
 
   ul {
     overflow: hidden;
     max-height: 0;
     transition: max-height .2s ease-out;
 }
+
+.nav a, nav li { 
+    text-decoration: none; 
+    color: white; 
+    list-style-type: none;
+    font-variant-caps: all-small-caps;
+}
+
+.nav
+
 
 label {
     cursor: pointer;

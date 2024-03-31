@@ -1,0 +1,28 @@
+html {
+    background-color: #020659;
+}
+* { 
+    box-sizing: border-box; 
+}
+*::before, *::after { 
+    box-sizing: inherit; 
+}
+
+body {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif; 
+}
+
+h1 {font-size:1.25em;
+}
+
+h2, h3 {font-size: 1em;
+}
+
+p, dl, dd {font-size: 1em;
+}
+
+footer p {font-size: .75em;
+}

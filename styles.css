@@ -44,31 +44,29 @@ p, dl, dd {font-size: 1em;
 footer p {font-size: .75em;
 }
 
-.container { display: grid}
+.grid-container { 
+    display: grid; 
+}
 
-/* HEADER STYLES */ 
+
+/* HEADER STYLES ------------------------------------------------------------------------------------------- */ 
 .header { 
     background: linear-gradient( to right, #2104D9, #030A8C,#020873, #020659, #000000); 
     color: white; 
     padding: 20px; 
 
 }
+nav { 
+    grid-row: 1/2; 
+    background-color: #020873
+}
 
   ul {
     overflow: hidden;
     max-height: 0;
     transition: max-height .2s ease-out;
-}
-
-.nav a, nav li { 
-    text-decoration: none; 
-    color: white; 
-    list-style-type: none;
-    font-variant-caps: all-small-caps;
-}
-
-.nav
-
+   
+  }
 
 label {
     cursor: pointer;
@@ -131,3 +129,15 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         display: none;
     }
 }
+/* HEADER STYLES END ------------------------------------------------------------------------------------------*/ 
+
+/* YOUR PLAYLIST STYLES ------------------------------------------------------------------------------------------- */ 
+
+
+
+
+
+
+
+
+/* YOUR PLAYLIST STYLES END ------------------------------------------------------------------------------------------*/ 

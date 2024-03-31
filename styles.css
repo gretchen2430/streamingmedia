@@ -1,3 +1,19 @@
+/* Color Palette 
+
+#020659 
+#020873
+#030A8C
+#0D8DFB 
+#2104D9 
+#2699FB 
+#590242 
+
+
+
+*/
+
+
+
 html {
     background-color: #020659;
 }
@@ -26,3 +42,6 @@ p, dl, dd {font-size: 1em;
 
 footer p {font-size: .75em;
 }
+
+
+/* HEADER STYLES */ 

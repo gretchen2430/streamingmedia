@@ -48,18 +48,31 @@ footer p {font-size: .75em;
     display: grid; 
 }
 
-
-/* HEADER STYLES ------------------------------------------------------------------------------------------- */ 
+/* HEADER / NAV STYLES ------------------------------------------------------------------------------------------- */ 
 .header { 
     background: linear-gradient( to right, #2104D9, #030A8C,#020873, #020659, #000000); 
     color: white; 
     padding: 20px; 
 
 }
+/*  NAV STYLES ------------------------------------------------------------------------------------------- */ 
 nav { 
     grid-row: 1/2; 
-    background-color: #020873
+    background-color: #030A8C; 
 }
+nav h2 { 
+    visibility: hidden;
+}
+
+.menu li, .menu a { 
+    list-style-type: none;
+    color: white; 
+    text-decoration: none;
+}
+#navitem1 a { 
+    font-variant-caps: small-caps; 
+}
+
 
   ul {
     overflow: hidden;
@@ -131,13 +144,3 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 /* HEADER STYLES END ------------------------------------------------------------------------------------------*/ 
 
-/* YOUR PLAYLIST STYLES ------------------------------------------------------------------------------------------- */ 
-
-
-
-
-
-
-
-
-/* YOUR PLAYLIST STYLES END ------------------------------------------------------------------------------------------*/ 

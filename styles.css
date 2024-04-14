@@ -75,12 +75,29 @@ body {
     background-color: #ffffff;
     font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
 }
-.container { 
+.grid-container { 
     display: grid; 
+    grid-template-columns: 1fr;
+}
+nav { 
+    order: -1;
+}  
+
+nav h2 { 
+    visibility: hidden;
 }
 
-h1 {font-size:1.25em;}
-h2, h3 {font-size: 1em;}
-p, dl, dd {font-size: 1em;}
-footer p {font-size: .75em;}
+
+h1 {
+    font-size:1.25em;
+}
+h2, h3 {
+    font-size: 1em;
+}
+p, dl, dd {
+    font-size: 1em;
+}
+footer p {
+    font-size: .75em;
+}
 
